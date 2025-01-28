@@ -1,0 +1,28 @@
+todo-list/
+├── src/
+│   ├── controllers/
+|   |   └── healthController.js
+│   │   └── groupController.js
+│   │   └── taskController.js
+│   ├── models/
+│   │   └── group.js
+│   │   └── task.js
+│   ├── migrations/
+│   │   └── 20240301000000-create-tables.js
+│   ├── routes/
+│   │   └── groupRoutes.js
+│   │   └── taskRoutes.js
+│   │   └── healthRoutes.js
+│   ├── config/
+│   │   └── config.js
+│   │   └── database.js
+│   ├── tests/
+│   │   └── integration/
+|   |   |   └── api.test.js
+│   │   └── unit/
+|   |   |   └── groupController.test.js
+│   ├── app.js
+├── .sequelizerc
+├── docker-compose.yml
+├── package.json
+└── Dockerfile 
