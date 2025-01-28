@@ -13,20 +13,27 @@ REST API для управління списками завдань з можл
 - Jest для тестування
 
 ## Структура проекту 
-todo-list/
-├── src/
-│ ├── controllers/ # Контролери для обробки запитів
-│ ├── models/ # Моделі даних Sequelize
-│ ├── routes/ # Маршрути API
-│ ├── config/ # Конфігураційні файли
-│ ├── migrations/ # Міграції бази даних
-│ ├── swagger/ # Документація Swagger
-│ └── tests/ # Тести
-├── docker-compose.yml # Конфігурація Docker Compose
-├── Dockerfile # Конфігурація Docker
-├── Makefile # Команди для управління проектом
-└── package.json
 
+```plaintext
+student-doto-list/
+├── src/
+│   ├── controllers/    # Контролери для обробки запитів
+│   ├── models/         # Моделі даних Sequelize
+│   ├── routes/         # Маршрути API
+│   ├── config/         # Конфігураційні файли
+│   ├── migrations/     # Міграції бази даних
+│   ├── swagger/        # Документація Swagger
+│   └── tests/          # Тести
+├── docker-compose.yml  # Конфігурація Docker Compose
+├── Dockerfile          # Конфігурація Docker
+├── Makefile            # Команди для управління проектом
+├── babel.config.js     # Конфігурація Babel
+├── .gitignore          # Файли, які не слід публікувати в репозиторій
+├── .prettierrc         # Конфігурація Prettier
+├── .sequelizerc        # Конфігурація Sequelize
+├── package.json        # Залежності та конфігурація npm
+└── README.md           # Цей файл
+```
 
 ## Передумови
 
