@@ -13,6 +13,19 @@ REST API для управління списками завдань з можл
 - Jest для тестування
 
 ## Структура проекту 
+todo-list/
+├── src/
+│ ├── controllers/ # Контролери для обробки запитів
+│ ├── models/ # Моделі даних Sequelize
+│ ├── routes/ # Маршрути API
+│ ├── config/ # Конфігураційні файли
+│ ├── migrations/ # Міграції бази даних
+│ ├── swagger/ # Документація Swagger
+│ └── tests/ # Тести
+├── docker-compose.yml # Конфігурація Docker Compose
+├── Dockerfile # Конфігурація Docker
+├── Makefile # Команди для управління проектом
+└── package.json
 
 
 ## Передумови
@@ -24,6 +37,10 @@ REST API для управління списками завдань з можл
 ## Встановлення та запуск
 
 1. Клонуйте репозиторій:
+```bash
+git clone git@github.com:AlexandrBursak/student-doto-list.git
+cd student-doto-list
+```
 
 ## Troubleshooting
 
